@@ -8,6 +8,11 @@ function showRepositories(){
   document.getElementById('repositories').innerHTML = repoList;
 }
 
+function getCommits(el){
+  const name = el.dataset.rep;
+  const req = new XMLHttpRequest();
+}
+
 function getRepositories(){
   const req = new XMLHttpRequest();
   req.addEventListener('load',showRepositories);
