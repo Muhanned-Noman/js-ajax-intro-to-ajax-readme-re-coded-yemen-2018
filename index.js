@@ -11,6 +11,8 @@ function showRepositories(){
 function getCommits(el){
   const name = el.dataset.rep;
   const req = new XMLHttpRequest();
+  
+  req.addEventListener()
 }
 
 function getRepositories(){
